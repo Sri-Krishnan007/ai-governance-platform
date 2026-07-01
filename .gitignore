@@ -1,0 +1,50 @@
+# Virtual environments
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+env/
+
+# Node dependencies
+frontend/node_modules/
+node_modules/
+
+# Local environment configuration
+.env
+backend/.env
+frontend/.env
+*.env.local
+
+# Build output
+frontend/dist/
+dist/
+build/
+
+# Python cache files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local logs and database files
+backend/*.log
+backend/test_db.db
+*.db
+*.sqlite
+
+# IDE & system configs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local review drafts and deployment guidelines (not needed in final deployment)
+varrrr.txt
+deploymentideas.txt
+deployment_and_submission_guide.txt
+azure_deployment_step_by_step.txt
+governance_review_submission.txt
+walkthrough.md
+learning_proposal.md
+task.md
+implementation_plan.md
